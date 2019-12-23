@@ -13,7 +13,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array,num)
-   return array.pop(num)
+   arrayr = array.pop
+   arrayr.pop
+   return arrayr
 end
 
 def using_shift(array)
